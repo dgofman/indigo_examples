@@ -1,0 +1,22 @@
+{
+	"name": "pokemongo",
+	"version": "0.0.0",
+	"main": "index.js",
+	"scripts": {
+		"start": "node .",
+		"jshint": "./node_modules/.bin/jshint . --config .jshintrc"
+	},
+	"private": true,
+	"dependencies": {
+		"indigojs": "~1.2.3",
+		"less": "~2.7.1",
+		"winston": "~2.2.0",
+		"proxy-orchestrator": "0.0.13"
+	},
+	"devDependencies": {
+		"jshint": "~2.9.2",
+		"grunt": "~1.0.1",
+		"grunt-contrib-uglify": "~2.0.0",
+		"grunt-contrib-less": "~1.3.0"
+	}
+}
